@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+
+# ROS / catkin
+devel/
+build/
+log/
+
+# Jupyter
+.ipynb_checkpoints
+
+# AirSim logs / large media
+*.bag
+*.bag.active
+*.bag.index
+*.bag.lock
+*.mp4
+*.avi
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Virtual env
+venv/
+.env/
